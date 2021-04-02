@@ -15,6 +15,7 @@ body {
 }
 
 .search {
+    flex: 1 0 auto;
     margin: auto auto;
 }
 
@@ -38,10 +39,19 @@ body {
     margin-right: auto;
 }
 
-a {
+a:link {
+    text-decoration: none;
     color:lightgray;
 }
 
+a:visited {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightgray;
 p {
     color:lightgray;
     padding: 5px;

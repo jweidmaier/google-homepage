@@ -3,10 +3,11 @@ body {
     flex-direction: column;
     background-color: rgb(46, 46, 46);
     margin: auto auto;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
 }
 
 .header {
-    background-color: rgb(0, 0, 0);
     width: auto;
     display: flex;
     flex-direction: row;
@@ -14,8 +15,51 @@ body {
     width: 100%;
 }
 
+.small {
+    width: 1.25%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.pad {
+    padding-right: 5px;
+    padding-left: 75px;
+}
+
+.round {
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: red blue green gold;
+    margin-right: 10px;
+}
+
 .search {
-    margin: auto auto;
+    padding-top: 20vh;
+    padding-left: 70vh;
+    padding-right: 70vh;
+} 
+
+.inputs {
+    padding-left: 60vh;
+    padding-right: 70vh;
+}
+
+input[type=search] {
+    color: lightgray;
+    background-color: rgb(46, 46, 46);
+    background-image: url('images/searchicon.png');
+    width: 120%;
+    border-radius: 20px;
+}
+
+.buttonleft{
+    margin-left: 90px;
+    margin-right: 10px;
+}
+
+input[type=button] {
+    margin-right: 10px;
 }
 
 .footer {
@@ -38,11 +82,25 @@ body {
     margin-right: auto;
 }
 
-a {
-    color:lightgray;
-}
-
 p {
     color:lightgray;
     padding: 5px;
 }
+
+a {
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color:lightgray;
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightgray;
